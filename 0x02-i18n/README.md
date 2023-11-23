@@ -84,7 +84,7 @@ In your ```get_locale``` function, detect if the incoming request contains ```lo
 Now you should be able to test different translations by visiting ```http://127.0.0.1:5000?locale=[fr|en]```.
 
 **Visiting ```http://127.0.0.1:5000/?locale=fr``` should display this level 1 heading**: 
-# Bonjour monde!
+![Bonjour monde!](https://github.com/kadelcode/alx-backend/blob/main/0x02-i18n/bonjour_monde.png)
 
 ### 5. Mock logging in
 Creating a user login system is outside the scope of this project. To emulate a similar behavior, copy the following user table in ```5-app.py```.
@@ -109,8 +109,9 @@ In your HTML template, if a user is logged in, in a paragraph tag, display a wel
 |logged_in_as | "You are logged in as %(username)s." | "Vous êtes connecté en tant que %(username)s." |
 | not_logged_in |	"You are not logged in." | "Vous n'êtes pas connecté." |
 
-Visiting http://127.0.0.1:5000/ in your browser should display this:
+Visiting http://127.0.0.1:5000/ in your browser should display this: 
 
+![Not_logged_in](https://github.com/kadelcode/alx-backend/blob/main/0x02-i18n/task5_1.png)
 
-
-Visiting http://127.0.0.1:5000/?login_as=2 in your browser should display this: 
+Visiting http://127.0.0.1:5000/?login_as=2 in your browser should display this:
+![logged_in_as_beyonce](https://github.com/kadelcode/alx-backend/blob/main/0x02-i18n/task5_2.png)
